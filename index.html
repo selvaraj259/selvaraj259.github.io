@@ -1,1 +1,10 @@
-Hello World
+<html><body>
+<script>
+function clickit() {
+  parent.postMessage('redirect:http://www.google.com', 'http://server1');
+}
+</script>
+<p>This should be in an iFrame!</p>
+<p><a href="http://www.google.com" target="_parent">normal link</a></p>
+<p><a href="javascript:clickit()">javascript link</a></p>
+</body></html>
